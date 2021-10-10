@@ -1,0 +1,26 @@
+.nav-search-input {
+	width: 33%;
+	height: 40px;
+	border-radius: 20px;
+	background: #e9ecef;
+}
+.nav-search-input input {
+	outline: none;
+	border: none;
+	height: 100%;
+	width: 88%;
+	background: none;
+}
+.nav-create-link {
+	cursor: pointer;
+}
+.navbar {
+	background: #fff;
+	z-index: 9;
+}
+.logo {
+	cursor: pointer;
+}
+.signup-link:hover {
+	text-decoration: underline;
+} 

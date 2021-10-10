@@ -1,0 +1,16 @@
+.icon-places{
+	cursor: pointer;
+}
+.places-input-container {
+	width: 75%;
+	border-bottom: 1px solid #adb5bd;
+	padding-bottom: 10px;
+}
+.places-input-container input{
+	background: none;
+	outline: none;
+	border: none;
+}
+.warning {
+	width: 75%;
+}

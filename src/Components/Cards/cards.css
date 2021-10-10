@@ -1,0 +1,31 @@
+.more-btn {
+	cursor: pointer;
+	border-radius: 5px;
+}
+.card-button {
+	background: none;
+	border: 1px solid #dee2e6;
+}
+.more-btn:active {
+	background: #adb5bd;
+}
+.card-title-more {
+	position: relative;
+}
+.tooltip-card {
+	width: 160px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+	right: 10px;
+	top: 35px;
+	z-index: 4;
+	transform: scale(0);
+	transform-origin: right top;
+}
+.tooltip-card p {
+	cursor: pointer;
+}
+.tooltip-card.tooltip-active {
+	transform: scale(1);
+}

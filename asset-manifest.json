@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ATG-world-Design/static/css/main.b6ff49d7.chunk.css",
-    "main.js": "/ATG-world-Design/static/js/main.6f68ad17.chunk.js",
-    "main.js.map": "/ATG-world-Design/static/js/main.6f68ad17.chunk.js.map",
+    "main.css": "/ATG-world-Design/static/css/main.8b8f42aa.chunk.css",
+    "main.js": "/ATG-world-Design/static/js/main.4df1a8f2.chunk.js",
+    "main.js.map": "/ATG-world-Design/static/js/main.4df1a8f2.chunk.js.map",
     "runtime-main.js": "/ATG-world-Design/static/js/runtime-main.8d6f272f.js",
     "runtime-main.js.map": "/ATG-world-Design/static/js/runtime-main.8d6f272f.js.map",
     "static/js/2.f1cb6c61.chunk.js": "/ATG-world-Design/static/js/2.f1cb6c61.chunk.js",
     "static/js/2.f1cb6c61.chunk.js.map": "/ATG-world-Design/static/js/2.f1cb6c61.chunk.js.map",
     "index.html": "/ATG-world-Design/index.html",
-    "static/css/main.b6ff49d7.chunk.css.map": "/ATG-world-Design/static/css/main.b6ff49d7.chunk.css.map",
+    "static/css/main.8b8f42aa.chunk.css.map": "/ATG-world-Design/static/css/main.8b8f42aa.chunk.css.map",
     "static/js/2.f1cb6c61.chunk.js.LICENSE.txt": "/ATG-world-Design/static/js/2.f1cb6c61.chunk.js.LICENSE.txt",
     "static/media/activism.f74c7c6e.png": "/ATG-world-Design/static/media/activism.f74c7c6e.png",
     "static/media/arrowDrop.8508da13.svg": "/ATG-world-Design/static/media/arrowDrop.8508da13.svg",
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.8d6f272f.js",
     "static/js/2.f1cb6c61.chunk.js",
-    "static/css/main.b6ff49d7.chunk.css",
-    "static/js/main.6f68ad17.chunk.js"
+    "static/css/main.8b8f42aa.chunk.css",
+    "static/js/main.4df1a8f2.chunk.js"
   ]
 }

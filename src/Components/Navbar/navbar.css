@@ -1,5 +1,5 @@
 .nav-search-input {
-	width: 33%;
+	width: 368px;
 	height: 40px;
 	border-radius: 20px;
 	background: #e9ecef;
@@ -17,6 +17,7 @@
 .navbar {
 	background: #fff;
 	z-index: 9;
+	box-shadow: 0 2px 10px rgba(0, 0, 0,0.2);
 }
 .logo {
 	cursor: pointer;
@@ -24,3 +25,34 @@
 .signup-link:hover {
 	text-decoration: underline;
 } 
+@media screen and (max-width:  990px) {
+	.logo-img {
+		width: 150px;
+	}
+}
+@media screen and (max-width: 772px) {
+	.logo-img {
+		width: 100px;
+	}
+	.nav-search-input {
+		width: 200px;
+		height: 35px;
+	}
+}
+@media screen and (max-width: 586px) {
+	.navbar {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.nav-create-link {
+		font-size: 15px;
+	}
+	.nav-search-input {
+		height: 32px;
+	}
+}
+@media screen and (max-width: 530px) {
+	.navbar {
+		display: none;
+	}
+}

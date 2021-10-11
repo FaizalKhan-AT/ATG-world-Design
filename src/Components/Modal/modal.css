@@ -22,12 +22,13 @@
  	width:60%;
  	background: #fff;
  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   z-index: 21;
  }
  .message-top {
  	width: 100%;	
  	position: relative;	
  	background: #effff4;
- 	border-radius: 	5px;
+ 	border-radius:5px;
  	color: #008a45;
  }
  .modal-close-btn {
@@ -44,6 +45,12 @@
  .create-acc-link:hover {
  	text-decoration: underline;
  }
+ .black-close {
+   display: none;
+   border: none;
+   outline: none;
+   background: none;
+ }
  .input-email,
  .input-password {
  	border: none;
@@ -55,10 +62,12 @@
  .input-email {
  	border-bottom: none;
  }
-
+.switch-route-pb {
+   display: none;
+}
  .modal-title {
  	width: 100%;
- 	padding-left: 33px;
+ 	padding-left: 35px;
  }
  .modal-eye-icon {
  	position: absolute;
@@ -89,4 +98,166 @@
  	outline:1px solid #868e96;
  	background: #f1f3f5;
  	height: 40px;
+   width: 155px;
+   padding-left: 5px;
  }
+ .mobile-text-b {
+   display: none;
+ }
+ .modal-title-mobile {
+   display: none !important;
+ }
+ .mobile-privacy-para {
+   display: none;
+ }
+ .desktop-submit {
+   width: 90% !important;
+ }
+@media screen and (max-width: 1300px) {
+   .signup-login-modal {
+      width: 65%;
+   }
+}
+@media screen and (max-width: 1135px) {
+   .signup-login-modal {
+      width: 73%;
+   }
+}
+@media screen and (max-width: 1005px) {
+   .signup-login-modal {
+      width: 75%;
+   }
+   .modal-title {
+      padding-left: 15px;
+   }
+   .switch-route-p {
+      font-size: 15.5px !important;
+   }
+}
+@media screen and (max-width: 992px) {
+   .signup-login-modal {
+      width: 80%;
+   }
+   
+}
+@media screen and (max-width: 900px) {
+   .signup-login-modal {
+      width: 90%;
+   }
+   
+}
+@media screen and (max-width: 800px) {
+   .signup-login-modal {
+      width: 97%;
+   }
+   .modal-close-btn {
+      right: -16px;
+   }
+}
+@media screen and (max-width: 770px) {
+   .col-image {
+      display: none !important;
+   }
+   .mobile-privacy-para {
+      display: block;
+   }
+   .signup-login-modal {
+      width: 368px;
+      height: 86%;
+   }
+   .switch-route-para {
+      display: block !important;
+   }
+   .modal-close-btn {
+      top: -45px;
+      right: -25px;
+   }
+}
+
+@media screen and (max-width: 530px) {
+   .switch-route-para {
+      display: none !important;
+   }
+   .signup-login-modal {
+      width: 100%;
+      height: 80%;
+      top: 71vh;
+      border-radius: 10px 10px 0 0 ;
+   }
+   .message-top {
+      display: none;
+   }
+   .black-close {
+      display: block;
+   }
+   .modal-title-mobile {
+      display: flex !important;
+      margin-bottom: 0 !important;
+   }
+   .modal-title {
+      display: none !important;
+   }
+   .switch-route-pb {
+      display: block;
+   }
+   .input-email,
+   .input-password {
+      width: 92% !important;
+   }
+   .password-inp-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+   .modal-eye-icon {
+      right: 42px;
+   }
+   .input-password  {
+      width: 100%;
+   }
+   .mobile-text-b {
+      display: block;
+   }
+   .input-containers {
+      width: 100%;
+   }
+   .mobile-text-b:hover {
+      cursor: pointer;
+      text-decoration: underline;
+   }
+   .modal-input {
+      width: 100%;
+   }
+   .social-button {
+      width: 93%;
+   }
+   .form-submit-button {
+      width: 40%;
+   }
+   .f-name-inp{
+      margin-left: 1rem;
+   }
+   .l-name-inp {
+      margin-right: 1.1rem;
+   }
+}
+@media screen and (max-width: 390px) {
+   .f-name-inp{
+      margin-left: 0.9rem;
+   }
+   .l-name-inp {
+      margin-right: 0.9rem;
+   }
+}
+@media screen and (max-width: 355px) {
+   .f-name-inp{
+      margin-left: 0.8rem;
+   }
+   .l-name-inp {
+      margin-right: 0.8rem;
+   }
+   .form-submit-button {
+      width: 50%;
+      font-size: 15px;
+   }
+}

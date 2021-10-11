@@ -1,0 +1,18 @@
+.groups-container {
+	width: 75%;
+}
+.follow-btn {
+	outline: none;
+	border: none;
+	width: 85px;
+	height: 30px;
+	border-radius: 15px;
+	transition: width 0.3s ease-in-out;
+}
+.follow-btn.following {
+	width: 100px;
+	background: #000;
+}
+.seemore-link {
+	cursor: pointer;
+}

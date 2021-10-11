@@ -1,3 +1,21 @@
 * {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
+.edit-pencil {
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 50px;
+	right: 15px;
+	z-index: 10;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+	display: none;
+	background: linear-gradient(to bottom right,#ff6b6b,#f06594);
+}
+ @media screen and (max-width: 530px) {
+	.edit-pencil {
+		display: block;
+	}
+ }

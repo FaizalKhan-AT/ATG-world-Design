@@ -2,13 +2,14 @@
 	width: 90%;
 	height: 50px;
 	border-bottom: 2px solid #adb5bd;
-
 }
 .filter-container {
 	margin-top: 20px;
+	display: flex;
+	justify-content: center;
 }
 .filter-btns  {
-	width: 40%;
+	width: 30%;
 	color: #868e96;	
 }
 .filter-btn {
@@ -29,23 +30,147 @@
 	top: 13px;
 }
 .button-join,
-.button-write {
+.button-write,
+.button-leave {
 	border: none;
 	width: 150px;
 	height: 35px;
 	outline: none;
 	cursor: pointer;
 	background: #dee2e6;
-	border-radius: 5px;
+	border-radius: 3px;
 	display: flex;
 	justify-content: center;
 	align-items:center;
 }
 .button-write {
 	margin-right: 10px;
-	column-gap: 8px;
 }
 .button-join {
 	column-gap: 5px;
 	background: #4c6ff5;
 }
+.button-leave {
+	background:none;
+	color: #6a6a6b;
+	border: 1px solid #6a6a6b;
+}
+.mobile-filter {
+	display: none !important;
+}
+.mobile-dropdown {
+	background: #ced4da;
+	border-radius: 5px;
+	width: 130px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+ @media screen and (max-width: 1145px) {
+ 	.filter-btns {
+ 		width: 40%;
+ 	}
+ }
+ @media screen and (max-width: 980px) {
+ 	.filter-container {
+ 		width: 100%;
+ 	}
+ }
+  @media screen and (max-width: 850px) {
+ 	.filter-btns {
+ 		width: 47%;
+ 	}
+ 	.filter-container {
+ 		margin-left: 20px;
+ 	}
+ 	.button-join,
+	.button-write,
+	.button-leave {
+		width: 130px;
+	}
+
+	.button-write {
+		font-size: 15px;
+	}
+ }
+ @media screen and (max-width: 850px) {
+ 	.button-leave {
+ 		font-size: 14px;
+ 	}
+ }
+   @media screen and (max-width: 742px) {
+   	.filter-btns {
+ 		width: 50%;
+ 		font-size: 15px;
+ 	}
+ 	.button-join,
+	.button-write,
+	.button-leave {
+		width: 120px;
+		font-size: 13px;		
+	}
+	
+   }
+    @media screen and (max-width: 646px) {
+   	.filter-btns {
+ 		font-size: 14px;
+ 	}
+ 	.button-join,
+	.button-write,
+	.button-leave {
+		width: 110px;
+		font-size: 12px;		
+	}
+	.button-leave  img[alt='leave'] {
+		width: 19px;
+		margin-right: 2px !important;
+	}
+   }
+   @media screen and (max-width: 723px) {
+		.filter-btn.active::after {
+			top: 14px;
+		}
+   }
+    @media screen and (max-width: 595px) {
+    	.filter-btn.active::after {
+			top: 16px;
+		}
+	   	.filter-btns {
+	   		width: 55%;
+	 		font-size: 13px;
+	 	}
+	 	.button-join,
+		.button-write,
+		.button-leave {
+			width: 105px;
+			font-size: 12px;		
+		}
+		.button-write  img[alt='down'] {
+			width: 18px;
+		}
+		.button-leave  img[alt='leave'] {
+			width: 18px;
+			margin-right: 2px !important;
+		}
+   }
+   @media screen and (max-width: 565px) {
+   	.filter-container {
+ 		margin-left: 0px;
+ 	}
+   	.filter-btns-container {
+ 		width: 98%;
+ 	}
+ 	.filter-btns {
+   		width: 50%;
+ 		font-size: 12px;
+	}
+   }
+   @media screen and (max-width: 530px) {
+  	.filter-btns-container {
+  		display: none !important;
+  	}
+  	.mobile-filter {
+  		display: flex !important;
+  	}
+   }

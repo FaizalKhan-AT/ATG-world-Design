@@ -5,6 +5,10 @@ import sara from './Assets/people/sara.png'
 import car from './Assets/images/car.png'
 import ronal from './Assets/people/ronal.png'
 import joseph from './Assets/people/joseph.png'
+import leisure from './Assets/groups/leisure.png'
+import activism from './Assets/groups/activism.png'
+import mba from './Assets/groups/mba.png'
+import philosophy from './Assets/groups/philosophy.png'
 
 export const data = [
 	{
@@ -46,4 +50,32 @@ export const data = [
 		button_text: "Apply on Timesjobs",
 		profile_image: joseph,
 	}
-]
+];
+
+export const groups = [
+	{
+		group_name:'Leisure',
+		group_profile: leisure,
+		is_following:false
+	},
+	{
+		group_name:'Activism',
+		group_profile: activism,
+		is_following:false
+	},
+	{
+		group_name:'MBA',
+		group_profile: mba,
+		is_following:false
+	},
+	{
+		group_name:'Philosophy',
+		group_profile: philosophy,
+		is_following:false
+	}
+
+];
+export const user = {
+	username:'Siddharth Goyal',
+	profile_image:joseph
+}
